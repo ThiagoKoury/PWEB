@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 8</title>
+
+</head>
+<body>
+    <div id="fechada">
+        <img src="https://static4.depositphotos.com/1000941/290/i/450/depositphotos_2904747-stock-photo-summer-landscape-behind-a-window.jpg" alt="">
+    </div>
+
+    <div id="aberta">
+        <img src="https://lh3.googleusercontent.com/proxy/NXzbdE5gScnPj47iIx7mOtyXHaP4IFvs0oU770fNx2K1LzdNIZ18JChXMtuQZ5lULysPJwHD8p1WuHh80NOs6c1lbf_oIwF5UXMiN2F6EW3-dJZ-QQsMvQu5Wq57Wbx5iw" alt="">
+    </div>
+
+    <div id="quebrada">
+        <img src="https://www.blogdofabossi.com.br/wp-content/uploads/2013/11/janelas.jpg" alt="">
+    </div>
+    
+    <script>
+        var fechada = document.getElementById('fechada')
+        var aberta = document.getElementById('aberta')
+        var quebrada = document.getElementById('quebrada')
+        
+        aberta.style.display = "none"
+        quebrada.style.display = "none"
+
+        fechada.addEventListener('mouseenter', abrir)
+        aberta.addEventListener('click', quebrar)
+
+        function abrir(){
+            fechada.style.display = "none"
+            aberta.style.display = "inline"
+        }
+
+        function quebrar(){
+            aberta.style.display = "none"
+            quebrada.style.display = "inline"
+        }
+
+    </script>
+ 
+</body>
+
+</html>
