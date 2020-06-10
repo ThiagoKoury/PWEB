@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#formulario{
+    background-color: aqua; 
+    width: 30%;    
+    padding: 2%;    
+}
+
+#formulario h1{
+    text-align: center;
+}
+
+#text input{
+    width: 80%;
+}
+
+#coment{
+    height: 100px;
+}
+
+#pesquisa{
+    padding-top: 30%;
+    text-align: center;
+}
+
+#pesquisa p{
+    padding-top: 7%;
+    padding-bottom: 4%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    width: 20%;
+    font-size: 1.2em;
+    margin-top: 2%;
+  }
